@@ -67,7 +67,7 @@ plt.title("Highest Total Bill Amount of day of the week")
 plt.show()
 ```
 
-![image](https://github.com/madhi43/ODD2023-Datascience-Ex-09/assets/103943383/a7212447-f300-49da-8d18-82d0fa2b93cf)
+![image](https://github.com/madhi43/ODD2023-Datascience-Ex-09/assets/103943383/ec97f586-6a1b-48ad-b91e-97e56f4e631a)
 
 
 
