@@ -42,7 +42,7 @@ plt.title("Data with outliers")
 df.boxplot()
 plt.show()
 ```
-![image](https://github.com/madhi43/ODD2023-Datascience-Ex-09/assets/103943383/8fb92778-e70f-4cda-a1ae-d315bcc01c72)
+![image](https://github.com/madhi43/ODD2023-Datascience-Ex-09/assets/103943383/5b6bde70-bddd-48ce-b50f-2e74b645825f)
 
 
 ### Removing Outliers
@@ -56,7 +56,7 @@ df=df[-((df[cols]<(Q1 - 1.5 * IQR))[df[cols]>(Q3 + 1.5 + IQR)]).any(axis=1)]
 df.boxplot()
 plt.show()
 ```
-![image](https://github.com/madhi43/ODD2023-Datascience-Ex-09/assets/103943383/3aeeff96-e01f-4b51-99ec-6d6907ffe7e8)
+![image](https://github.com/madhi43/ODD2023-Datascience-Ex-09/assets/103943383/2894ce29-765f-48bc-82f2-0116c4a17a27)
 
 
 ### 1.Which day of the week has the highest total bill amount?
